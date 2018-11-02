@@ -1,7 +1,6 @@
 class ClientController < ApplicationController
-    
+    require 'twitter'
     def home
-        require 'twitter'
         client = Twitter::REST::Client.new do |config|
             config.consumer_key = "dJaGLikNUVQN8f8JMKs9rqY9k"
             config.consumer_secret = "sGNrb28QTMe41K1lfDgYYeUKFVtJ6MCpj4mCWo4m1Zcc7vc7LD"
