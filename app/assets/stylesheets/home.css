@@ -9,4 +9,6 @@ body {
 .maindiv {
     background-color: white;
     border-bottom: 3px solid #000000;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
